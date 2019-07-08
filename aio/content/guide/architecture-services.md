@@ -44,7 +44,7 @@ Components consume services; that is, you can *inject* a service into a componen
 To define a class as a service in Angular, use the `@Injectable()` decorator to provide the metadata that allows Angular to inject it into a component as a *dependency*.  
 Similarly, use the `@Injectable()` decorator to indicate that a component or other class (such as another service, a pipe, or an NgModule) *has* a dependency. 
 
-* The *injector* is the main mechanism. Angular creates an application-wide injector for you during the bootstrap process, and additional injectors as needed. You don't have to create injectors.
+* The *injector* is  the main mechanism. Angular creates an application-wide injector for you during the bootstrap process, and additional injectors as needed. You don't have to create injectors.
 
 * An injector creates dependencies, and maintains a *container* of dependency instances that it reuses if possible.
 
